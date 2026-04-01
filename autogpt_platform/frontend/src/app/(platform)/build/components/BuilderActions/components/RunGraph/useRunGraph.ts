@@ -33,11 +33,11 @@ export const useRunGraph = () => {
   const clearAllNodeErrors = useNodeStore(
     useShallow((state) => state.clearAllNodeErrors),
   );
-  const cleanNodesStatuses = useNodeStore(
-    useShallow((state) => state.cleanNodesStatuses),
-  );
   const clearAllNodeExecutionResults = useNodeStore(
     useShallow((state) => state.clearAllNodeExecutionResults),
+  );
+  const cleanNodesStatuses = useNodeStore(
+    useShallow((state) => state.cleanNodesStatuses),
   );
 
   // Tutorial integration - force open dialog when tutorial requests it
