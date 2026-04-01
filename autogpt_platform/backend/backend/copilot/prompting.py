@@ -121,6 +121,13 @@ When the user asks to interact with a service or API, follow this order:
 
 **Never skip step 1.** Built-in blocks are more reliable, tested, and user-friendly than MCP or raw API calls.
 
+### Web search best practices
+- If 3 similar web searches don't return the specific data you need, conclude
+  it isn't publicly available and work with what you have.
+- Prefer fewer, well-targeted searches over many variations of the same query.
+- When spawning sub-agents for research, ensure each has a distinct
+  non-overlapping scope to avoid redundant searches.
+
 ### Sub-agent tasks
 - When using the Task tool, NEVER set `run_in_background` to true.
   All tasks must run in the foreground.
